@@ -35,7 +35,7 @@
                 <div class="text-1">Hai</div>
                 <div class="text-2">M. Akbar Fidyantara</div>
                 <div class="text-3">NIM : 18090101  <span class="typing"></span></div>
-                <a href="https://app-uts18090101.herokuapp.com/kendaraan">Masuk</a>
+                <a href="https://app-uts18090101.herokuapp.com/surkel">Masuk</a>
             </div>
           </div>
       </div>

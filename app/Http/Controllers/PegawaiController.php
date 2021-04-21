@@ -29,7 +29,7 @@ class PegawaiController extends Controller
     		'alamat' => $request->alamat
     	]);
  
-    	return redirect('/kendaraan');
+    	return redirect('/surkel');
     }
 
     public function edit($id){
@@ -49,7 +49,7 @@ class PegawaiController extends Controller
         $pegawai->nama = $request->nama;
         $pegawai->alamat = $request->alamat;
         $pegawai->save();
-        return redirect('/kendaraan');
+        return redirect('/surkel');
     }
 
     public function delete($id){

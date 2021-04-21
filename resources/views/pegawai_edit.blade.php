@@ -13,12 +13,12 @@
                 <strong>EDIT DATA</strong>
                 </div>
                 <div class="card-body">
-                    <a href="/kendaraan" class="btn btn-primary">Kembali</a>
+                    <a href="/surkel" class="btn btn-primary">Kembali</a>
                     <br/>
                     <br/>
                     
  
-                    <form method="post" action="/kendaraan/update/{{ $pegawai->id }}">
+                    <form method="post" action="/surkel/update/{{ $pegawai->id }}">
  
                         {{ csrf_field() }}
                         {{ method_field('PUT') }}

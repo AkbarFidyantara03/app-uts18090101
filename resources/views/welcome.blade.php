@@ -32,7 +32,7 @@
       <div class="max-width">
           <div class="row">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
+                <div class="text-1">Hai Nama Saya M. Akbar Fidyantara</div>
                 <div class="text-2">Akbar</div>
                 <div class="text-3">NIM : 18090018 <span class="typing"></span></div>
                 <a href="https://app-uts18090101.herokuapp.com/kendaraan">Masuk</a>

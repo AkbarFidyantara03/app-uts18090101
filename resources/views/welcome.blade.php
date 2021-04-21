@@ -20,7 +20,6 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Aplikasi perekaman data<span> Kendaraan</span></a></div>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -36,7 +35,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Eka Sri Mulyani</div>
                 <div class="text-3">NIM : 18090018 <span class="typing"></span></div>
-                <a href="https://uts-18090018.herokuapp.com/kendaraan">Masuk</a>
+                <a href="https://app-uts18090101.herokuapp.com/kendaraan">Masuk</a>
             </div>
           </div>
       </div>

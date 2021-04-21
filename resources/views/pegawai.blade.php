@@ -10,7 +10,7 @@
         <div class="container">
             <div class="card mt-5">
                 <div class="card-header text-center">
-                    CRUD - <a href="#" target="_blank">By 18090018</a>
+                    CRUD - <a href="#" target="_blank">By 18090101</a>
                 </div>
                 <div class="card-body">
                     <a href="/kendaraan/tambah" class="btn btn-primary">Tambah Data Baru</a>
@@ -19,9 +19,9 @@
                     <table class="table table-bordered table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Plat Kendaraan</th>
-                                <th>Merk Kendaraan</th>
-                                <th>Tipe Kendaraan</th>
+                                <th>Nomor Surat</th>
+                                <th>Tanggal Surat</th>
+                                <th>Judul Surat</th>
                                 <th>OPSI</th>
                             </tr>
                         </thead>
@@ -32,8 +32,8 @@
                                 <td>{{ $p->nama }}</td>
                                 <td>{{ $p->alamat }}</td>
                                 <td>
-                                    <a href="/kendaraan/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
-                                    <a href="/kendaraan/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
+                                    <a href="/Surat/edit/{{ $p->id }}" class="btn btn-warning">Edit</a>
+                                    <a href="/Surat/hapus/{{ $p->id }}" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                             @endforeach

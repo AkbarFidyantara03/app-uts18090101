@@ -24,8 +24,8 @@
                         {{ method_field('PUT') }}
 
                         <div class="form-group">
-                            <label>Plat Kendaraaan</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="Masukan Plat" value=" {{ $pegawai->nip }}">
+                            <label>Nomor Surat</label>
+                            <input type="integer" name="nip" class="form-control" placeholder="Masukan Nomor Surat" value=" {{ $pegawai->nip }}">
  
                             @if($errors->has('nip'))
                                 <div class="text-danger">
@@ -36,8 +36,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Merk Kendaraaan</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Merk Kendaraan" value=" {{ $pegawai->nama }}">
+                            <label>Tanggal Surat</label>
+                            <input type="text" name="nama" class="form-control" placeholder="Tanggal Surat" value=" {{ $pegawai->nama }}">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -48,8 +48,8 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Tipe Kendaraan</label>
-                            <textarea name="alamat" class="form-control" placeholder="Tipe Kendaraan"> {{ $pegawai->alamat }} </textarea>
+                            <label>Judul Surat</label>
+                            <textarea name="alamat" class="form-control" placeholder="Judul Surat"> {{ $pegawai->alamat }} </textarea>
  
                              @if($errors->has('alamat'))
                                 <div class="text-danger">
@@ -68,5 +68,5 @@
                 </div>
             </div>
         </div>
-    </body><a href="#" target="_blank">By 18090018</a>
+    </body><a href="#" target="_blank">By 18090101</a>
 </html>

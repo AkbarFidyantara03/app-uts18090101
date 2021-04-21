@@ -23,8 +23,8 @@
 
                         
                         <div class="form-group">
-                            <label>Plat Kendaraan</label>
-                            <input type="integer" name="nip" class="form-control" placeholder="Masukan Plat Kendaraan">
+                            <label>Nomor Surat</label>
+                            <input type="integer" name="nip" class="form-control" placeholder="Masukan Nomor Surat">
  
                             @if($errors->has('nip'))
                                 <div class="text-danger">
@@ -36,8 +36,8 @@
 
  
                         <div class="form-group">
-                            <label>Merk Kendaraan</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Masukan Merk Kendaraan">
+                            <label>Tanggal Surat</label>
+                            <input type="text" name="nama" class="form-control" placeholder="Masukan Tanggal Surat">
  
                             @if($errors->has('nama'))
                                 <div class="text-danger">
@@ -48,11 +48,11 @@
                         </div>
  
                         <div class="form-group">
-                            <label>Tipe Kendaraan</label>
-                            <textarea name="alamat" class="form-control" placeholder="Masukan Tipe Kendaraan"></textarea>
+                            <label>Judul Surat</label>
+                            <textarea name="alamat" class="form-control" placeholder="Masukan Judul Surat"></textarea>
  
                              @if($errors->has('alamat'))
-                                <div class="text-danger">
+                                <div class="text-warning">
                                     {{ $errors->first('alamat')}}
                                 </div>
                             @endif
@@ -68,5 +68,5 @@
                 </div>
             </div>
         </div>
-    </body> <a href="#" target="_blank">By 18090018</a>
+    </body> <a href="#" target="_blank">By 18090101</a>
 </html>

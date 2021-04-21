@@ -32,9 +32,9 @@
       <div class="max-width">
           <div class="row">
             <div class="home-content">
-                <div class="text-1">Hai Nama Saya M. Akbar Fidyantara</div>
-                <div class="text-2">Akbar</div>
-                <div class="text-3">NIM : 18090018 <span class="typing"></span></div>
+                <div class="text-1">Hai</div>
+                <div class="text-2">M. Akbar Fidyantara</div>
+                <div class="text-3">NIM : 18090101  <span class="typing"></span></div>
                 <a href="https://app-uts18090101.herokuapp.com/kendaraan">Masuk</a>
             </div>
           </div>
@@ -42,7 +42,7 @@
     </section>
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="https://github.com/ilhamhanifpamulia/uts-18090027.git">Ilham Hanif Pamulia</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+        <span>Created By <a href="https://github.com/ilhamhanifpamulia/uts-18090027.git">M. Akbar Fidyantara</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
